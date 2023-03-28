@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
+import Exercises from './components/UI/Exercises';
 import Hero from './components/UI/Hero';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header/>
       <Hero/>
+      <Exercises />
     
     </>
     // <div className="App">
