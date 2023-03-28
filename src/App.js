@@ -5,6 +5,7 @@ import Exercises from './components/UI/Exercises';
 import Hero from './components/UI/Hero';
 import Pricing from './components/UI/Pricing';
 import Start from './components/UI/Start';
+import Testimonial from './components/UI/Testimonial';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Exercises />
       <Start />
       <Pricing />
+      <Testimonial />
     
     </>
     // <div className="App">
