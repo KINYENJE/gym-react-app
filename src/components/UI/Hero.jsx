@@ -23,7 +23,7 @@ const Hero = () => {
                     <p  data-aos= 'fade-left'
                         data-aos-delay = '200' 
                         data-aos-duration = '1200'>
-                        At Njenga Gym we are committed at ensuring that all our clients live a healthy happy lifestyle. <br />
+                        At Njenga Gym we are committed at ensuring <br /> that all our clients live a healthy happy lifestyle. <br /> <br />
                         We firmly believe that, <span className="highlights">Better Sore Than Sorry</span>.
                     </p>
 
