@@ -26,6 +26,7 @@
     border-radius: 5px;
     width: 33%;
     background: #fff;
+    height: 450px;
 }
 
 .pricing_card-top{
@@ -70,6 +71,7 @@
 
 .services button{
     margin-top: 50px;
+    position: relative;
 }
 
 .pricing_item-02 .pricing_card-top {

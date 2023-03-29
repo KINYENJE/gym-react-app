@@ -36,9 +36,9 @@ export default function Testimonial() {
                     <img src={person01} alt="" />
                 </div>
 
-                <h4>Jessica Fernandes</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipiscing.
-                    gkgosk kvgkg nvaovv
+                <h4>Nicole Wambui</h4>
+                <p>
+                    Njenga gym imenijenga mwili.LOL.😘
                 </p>
             </div> 
         </SwiperSlide>
@@ -48,9 +48,10 @@ export default function Testimonial() {
                     <img src={person02} alt="" />
                 </div>
 
-                <h4>Jessica Fernandes</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipiscing.
-                    gkgosk kvgkg nvaovv
+                <h4>Joy Atieno</h4>
+                <p>
+                    Oommmerraa i cant believe after 3 weeks my blood pressure has gone down. <br />
+                        The trainers at Njenga gym are superb.
                 </p>
             </div> 
         </SwiperSlide>
@@ -60,9 +61,9 @@ export default function Testimonial() {
                         <img src={person03} alt="" />
                     </div>
 
-                    <h4>Jessica Fernandes</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipiscing.
-                        gkgosk kvgkg nvaovv
+                    <h4>Felistas Nekesa</h4>
+                    <p>
+                      Haven't felt like this in ages...wow!😆
                     </p>
                 </div> 
         </SwiperSlide>

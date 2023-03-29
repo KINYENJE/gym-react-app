@@ -13,8 +13,9 @@ const Exercises = () => {
                     Benefis of <span className='highlights'>Exercise</span>
                 </h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur gggdgds elit. <br />
-                    Error quidem,nam nihi expedita atque modi?
+                    Reducing blood pressure, Burn excess body fat. 
+                    Prevent lifestyle disorder diseases. Example: <br />
+                     diabetes,obesity,heart diseases,stroke and many more.
                 </p>
 
             </div>
@@ -29,8 +30,8 @@ const Exercises = () => {
                     <div className="exercise_content">
                         <h4>Healthy Life</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur gggdgds elit. <br />
-                            Error quidem,nam nihi expedita atque modi?
+                            Involves eating healthy food  <br />
+                            and doing alot of exercise.
                         </p>
                     </div>
                 </div>
@@ -42,8 +43,8 @@ const Exercises = () => {
                     <div className="exercise_content">
                         <h4>Increased Flexibility</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur gggdgds elit. <br />
-                            Error quidem,nam nihi expedita atque modi?
+                            Relieves the tension in the muscles and joints hence. <br />
+                            enabling you to feel as young and flexible as you are 😉. 
                         </p>
                     </div>
                 </div>
@@ -55,8 +56,8 @@ const Exercises = () => {
                     <div className="exercise_content">
                         <h4>Reducing Blood Pressure</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur gggdgds elit. <br />
-                            Error quidem,nam nihi expedita atque modi?
+                            Burning that excess relieves unnecessary stress from the heart to pump blood. <br />
+                            This ensures your blood pressure is at a normal rate.
                         </p>
                     </div>
                 </div>

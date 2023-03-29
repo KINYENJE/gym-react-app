@@ -15,14 +15,15 @@ const Start = () => {
                 data-aos-duration = '1500'>
                     <h2 className="section_title">
 
-                        Ready to make a <span className="highlights">change?</span>
+                    'Feel the Burn, Fill the <span className="highlights">BAM!</span>'
                     </h2>
                     <p>
-                        Lorem ipsum dollar sit amet consectetur, adipisicing elit.
-                        Laboriosm repellendus odit fugit eos! Id, labore.
+                        Our focus is geared to ensuring that more women exercise in an environment where the feel comfortable to do so. <br />
+                        <br />
+                        A daily reminder, Sweat. Smile. Repeat.
                     </p>
 
-                    <button className="register_btn">Get Started</button>
+                    <a href="https://www.youtube.com/@getfitbyivana"><button className="register_btn">Get Started</button></a>
                 </div>
             </div>
         </div>

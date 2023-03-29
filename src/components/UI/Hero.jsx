@@ -23,19 +23,23 @@ const Hero = () => {
                     <p  data-aos= 'fade-left'
                         data-aos-delay = '200' 
                         data-aos-duration = '1200'>
-                        Lorem ipsum dollar sit amet consectetur, adipisicing elit. <br />
-                        Laboriosm repellendus odit fugit eos! Id, labore.
+                        At Njenga Gym we are committed at ensuring that all our clients live a healthy happy lifestyle. <br />
+                        We firmly believe that, <span className="highlights">Better Sore Than Sorry</span>.
                     </p>
 
                     <div className="hero_btns"  
                         data-aos= 'fade-right'
                         data-aos-delay = '1000' 
                         data-aos-duration = '800'>
-                        <button className="register_btn">Get Started</button>
-                        <button className="watch_btn">
+                       <a href="https://www.youtube.com/watch?v=f4ploouAfWI&list=PLyP8pbBMxcsgLVKBNr5cjXyazQ_Rc6vTV">
+                       <button className="register_btn">Get Started</button>
+                       </a>
+                       <a href="https://www.youtube.com/watch?v=UqFzWx8X5AM">
+                       <button className="watch_btn">
                             <span><i class="ri-play-fill"></i></span>
                             Watch Video
                         </button>
+                       </a>
                     </div>
 
                 </div>
