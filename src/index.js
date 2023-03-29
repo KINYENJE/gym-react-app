@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import 'aos/dist/aos.css'
+
 import App from './App';
 import 'remixicon/fonts/remixicon.css'
 import reportWebVitals from './reportWebVitals';

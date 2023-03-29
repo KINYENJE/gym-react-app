@@ -7,21 +7,30 @@ import '../../styles/hero.css'
 
 const Hero = () => {
   return (
-    <section>
+    <section id='Home'>
         <div className="container">
             <div className="hero_wrapper">
 
                 {/** ======hero content ======== */}
                 <div className="hero_content">
-                    <h2 className='section_title'>Exercise is the key to a <br />
+                    <h2 className='section_title' 
+                    /** ===== the data aos animation ========= */ 
+                        data-aos= 'fade-up' 
+                        data-aos-duration = '1500' >
+                        Exercise is the key to a <br />
                         <span className="highlights"> Healthy</span> lifestyle</h2>
 
-                    <p>
+                    <p  data-aos= 'fade-left'
+                        data-aos-delay = '200' 
+                        data-aos-duration = '1200'>
                         Lorem ipsum dollar sit amet consectetur, adipisicing elit. <br />
                         Laboriosm repellendus odit fugit eos! Id, labore.
                     </p>
 
-                    <div className="hero_btns">
+                    <div className="hero_btns"  
+                        data-aos= 'fade-right'
+                        data-aos-delay = '1000' 
+                        data-aos-duration = '800'>
                         <button className="register_btn">Get Started</button>
                         <button className="watch_btn">
                             <span><i class="ri-play-fill"></i></span>
@@ -34,28 +43,34 @@ const Hero = () => {
                 <div className="hero_img">
                     <div className="hero_img-wrapper">
 
-                        <div className="box-01">
-                            <div className="box-02">
-                                <div className="box-03">
-                                    <div className="box_img">
+                        <div className="box-01" data-aos= 'flip-up' data-aos-duration = '1500'>
+
+                            <div className="box-02" data-aos= 'flip-up' 
+                                data-aos-delay = '800' data-aos-duration = '1500'>
+
+                                <div className="box-03" data-aos= 'flip-up'
+                                    data-aos-delay = '1200' data-aos-duration = '1500'>
+                                    <div className="box_img"  data-aos= 'zoom-in'
+                                    data-aos-delay = '1600' data-aos-duration = '1500'>
                                         <img src={mzungu} alt=""  />
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="heart_rate">
+                        <div className="heart_rate" 
+                            data-aos="zoom-in-right" data-aos-duration = '1500'>
                             <h5>Heart Rate</h5>
                             <span><i class="ri-heart-pulse-fill"></i></span>
                             <h6>2567 BPM</h6>
                         </div>
 
-                        <div className="gym_location">
+                        <div className="gym_location" data-aos="zoom-in-left" data-aos-duration = '1500'>
                             <span><i class="ri-map-pin-2-fill"></i></span>
                             <h5>Find a new <br/> gym near you</h5>
                         </div>
 
-                        <div className="dumble_icon">
+                        <div className="dumble_icon" data-aos="fade-down-right" data-aos-duration = '1500'>
                             <img src={dumbleIcon} alt="" />
                         </div>
                     </div>

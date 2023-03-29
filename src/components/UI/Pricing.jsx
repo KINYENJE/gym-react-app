@@ -3,7 +3,7 @@ import '../../styles/pricing.css'
 
 const Pricing = () => {
   return (
-    <section>
+    <section id='Prices'>
         <div className="container">
             <div className="pricing_top">
                 <h2 className="section_title"> Gym
@@ -17,7 +17,8 @@ const Pricing = () => {
 
             {/** ======== pricing wrapper ===== */}
 
-            <div className="pricing_wrapper">
+            <div className="pricing_wrapper" data-aos = 'fade-up'
+              data-aos-delay = '500' data-aos-duration = '2000'>
                 <div className="pricing_item">
                     <div className="pricing_card-top">
                         <h2 className='section_title'>Regular Member</h2>

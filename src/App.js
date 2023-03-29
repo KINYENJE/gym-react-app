@@ -7,7 +7,16 @@ import Pricing from './components/UI/Pricing';
 import Start from './components/UI/Start';
 import Testimonial from './components/UI/Testimonial';
 
+import { useEffect } from 'react';
+import Aos from 'aos';
+
+
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+  },[])
+
   return (
     <>
       <Header/>

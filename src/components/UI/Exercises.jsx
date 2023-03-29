@@ -6,7 +6,7 @@ import extended from '../../assets/img/extended.png'
 
 const Exercises = () => {
   return (
-    <section>
+    <section id='Exercises'>
         <div className="container exercise_container">
             <div className="exercise_top">
                 <h2 className="section_title">
@@ -21,7 +21,7 @@ const Exercises = () => {
 
             {/** ====== exercise list ======== */}
             <div className="exercise_wrapper">
-                <div className="exercise_item">
+                <div className="exercise_item" data-aos = 'zoom-in'>
                     <span className="exercise_icon">
                         <img src={lunges} alt="" />
                     </span>
@@ -34,7 +34,7 @@ const Exercises = () => {
                         </p>
                     </div>
                 </div>
-                <div className="exercise_item">
+                <div className="exercise_item" data-aos = 'zoom-in'>
                     <span className="exercise_icon">
                         <img src={yoga} alt="" />
                     </span>
@@ -47,7 +47,7 @@ const Exercises = () => {
                         </p>
                     </div>
                 </div>
-                <div className="exercise_item">
+                <div className="exercise_item" data-aos = 'zoom-in'>
                     <span className="exercise_icon">
                         <img src={extended} alt="" />
                     </span>

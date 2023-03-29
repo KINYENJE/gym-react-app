@@ -1,30 +1,59 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import "../../styles/Header.css"
 import logo from '../../assets/img/dumble.png'
 
 
 const nav_links = [
   {
-    path: '#',
+    path: '#Home',
     display: 'Home'
   },
   {
-    path: '#',
+    path: '#Exercises',
     display: 'Schedule'
   },
   {
-    path: '#',
+    path: '#Classes',
     display: 'Classes'
   },
   {
-    path: '#',
+    path: '#Prices',
     display: 'Pricing'
   },
 ]
 
 const Header = () => {
+
+  const headerRef = useRef(null)
+
+  const headerFunc = () => {
+    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+      headerRef.current.classList.add('sticky_header')
+    }else {
+      headerRef.current.classList.remove('sticky_header')
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', headerFunc);
+
+    return () => window.removeEventListener('scroll', headerFunc)
+  }, []);
+
+  const handleClick = e => {
+    e.preventDefault()
+
+    const targetAttr = e.target.getAttribute('href');
+    const location = document.querySelector(targetAttr).offsetTop
+
+    window.scrollTo({
+      left: 0,
+      top:location - 80,
+    });
+  }
+
   return (
-    <header className='header'>
+    <header className='header' ref={headerRef}>
       <div className="container">
         <div className="nav_wrapper">
           {/* =======LOGO========= */}
@@ -41,7 +70,8 @@ const Header = () => {
               <ul className="menu">
                   {
                     nav_links.map(item => 
-                      <li className="nav_item"><a href={item.path}>
+                      <li className="nav_item">
+                        <a onClick={handleClick} href={item.path}>
                         {item.display}</a></li>
                     )
                   }

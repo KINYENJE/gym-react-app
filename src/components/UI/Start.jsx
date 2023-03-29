@@ -4,14 +4,15 @@ import trainerImg from '../../assets/img/trainer.png'
 
 const Start = () => {
   return (
-    <section>
+    <section id='Classes'>
         <div className="container">
             <div className="start_wrapper">
-                <div className="start_img">
+                <div className="start_img" data-aos = 'fade-left' data-aos-duration = '1500'>
                     <img src={trainerImg} alt="" />
                 </div>
 
-                <div className="start_content">
+                <div className="start_content" data-aos = 'fade-right'
+                data-aos-duration = '1500'>
                     <h2 className="section_title">
 
                         Ready to make a <span className="highlights">change?</span>
