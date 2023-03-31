@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import "../../styles/Header.css"
 import logo from '../../assets/img/dumble.png'
 
@@ -52,6 +52,16 @@ const Header = () => {
     });
   }
 
+  const [showMenu, setShowMenu] = useState(false);
+
+  // document.querySelector('.register_btn').addEventListener('click', displayMenu)
+  
+
+  // function displayMenu(){
+  //   const menu = document.querySelector('.navigation')
+  //   menu.classList.toggle = 'hidden'
+  // }
+
   return (
     <header className='header' ref={headerRef}>
       <div className="container">
@@ -66,12 +76,12 @@ const Header = () => {
 
           {/** ==========navigation menu ============= */}
 
-            <div className="navigation">
+            <div className={`navigation  ${showMenu ? "show-menu" : ""}`} >
               <ul className="menu">
                   {
                     nav_links.map(item => 
                       <li className="nav_item">
-                        <a onClick={handleClick} href={item.path}>
+                        <a onClick={handleClick} href={item.path} onClick = {() => setShowMenu(false)}>
                         {item.display}</a></li>
                     )
                   }
@@ -79,11 +89,12 @@ const Header = () => {
             </div>
 
             {/** ========nav right =============== */}
-            <div className="nav_right">
+            <div className={`nav_right `}>
               <button className='register_btn'>Register</button>
-              <span className="mobile_menu">
+              <span className="mobile_menu" onClick={() => setShowMenu(!showMenu)}>
               <i class="ri-menu-line"></i>
               </span>
+
             </div>
         </div>
       </div>

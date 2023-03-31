@@ -11,14 +11,15 @@ const Start = () => {
                     <img src={trainerImg} alt="" />
                 </div>
 
-                <div className="start_content" data-aos = 'fade-right'
+                <div className="start_content" data-aos = 'fade-right' 
                 data-aos-duration = '1500'>
-                    <h2 className="section_title">
+                    <h2 className="section_title" data-aos = 'fade-up'
+                    data-aos-delay = '800'>
 
                     'Feel the Burn, Fill the <span className="highlights">BAM!</span>'
                     </h2>
                     <p>
-                        Our focus is geared to ensuring that more women exercise in an environment where the feel comfortable to do so. <br />
+                        Our focus is geared to ensuring that more women exercise in an environment where they feel comfortable to do so. <br />
                         <br />
                         A daily reminder, Sweat. Smile. Repeat.
                     </p>

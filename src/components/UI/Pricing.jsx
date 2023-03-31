@@ -10,8 +10,8 @@ const Pricing = () => {
                 <span className="highlights"> Pricing</span> Plan
                 </h2>
                 <p>
-                For a more tailored experience , become a member of the Njenga Community. <br />
-                Try us you won't regret.
+                For a more tailored experience , become a member of the Njenga Community. <br /> <br />
+                <h5>Try us you won't regret.</h5>
                 </p>
             </div>
 

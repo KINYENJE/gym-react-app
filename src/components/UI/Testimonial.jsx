@@ -14,7 +14,7 @@ import { EffectCards } from "swiper";
 
 import person01 from '../../assets/img/avatar01.png'
 import person02 from '../../assets/img/avatar02.png'
-import person03 from '../../assets/img/avatar03.jpg'
+import person03 from '../../assets/img/avatar03.png'
 
 export default function Testimonial() {
   return (
@@ -29,7 +29,7 @@ export default function Testimonial() {
         grabCursor={true}
         modules={[EffectCards]}
         className="mySwiper"
-      >
+        >
         <SwiperSlide> 
             <div className="slide_item">
                 <div className="slide_img-01">
