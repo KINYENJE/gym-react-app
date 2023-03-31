@@ -183,3 +183,116 @@
     width: 100%;
 }
 
+
+
+
+@media  (max-width: 400px) {
+    .hero_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        row-gap: 2.4rem;
+        width: 360px;
+    }
+
+    .hero_content{
+        margin-top: -1rem;
+    }
+
+    .hero_content .section_title{
+        font-size: 1.85rem;
+        line-height: 30px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        width: 100%;
+    }
+
+    .hero_content p{
+        font-size: 1rem;
+        color: var(--heading-color);
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .hero_img{
+        width: 360px;
+        margin-top: 2rem;
+    }
+
+    .box-01{
+        width: 360px;
+        height: 360px;
+        border-radius: 100%;
+        border: 25px solid rgba(141,141,235);
+    }
+    .box-02{
+        width: 310px;
+        height: 310px;
+        border-radius: 100%;
+        border: 25px solid #b5a9f3;
+    }
+    .box-03{
+        width: 260px;
+        height: 260px;
+        border-radius: 100%;
+        border: 25px solid #d3cef2;
+    }
+    
+    .hero_img-wrapper{
+        position: relative;
+        z-index:1;
+        width: 360px;
+    }
+    
+    .box_img{
+        position: relative;
+        top: -12%;
+        left: -15%;
+        z-index: 10;
+    }
+    
+    .box_img img{
+        width: 121.5%;
+    }
+    
+    .heart_rate{
+        width: 100px;
+        position: absolute;
+        top: 65%;
+        left: -7%;
+        z-index: 10;
+        text-align: center;
+        background: #fff;
+        border-radius: 5px;
+        padding: 5px 0px;
+    }
+    
+    .gym_location{
+        position: absolute;
+        top: -2%;
+        right: -3%;
+        z-index: 10;
+        box-shadow: 3px -3px 8px 1px #d3cef2;
+        
+        padding: .6rem;
+    }
+
+    .dumble_icon{
+        position: absolute;
+        top: 2%;
+        left: 5%;
+        z-index: 10;
+        background: #d7337a;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        padding: 15px 10px;
+    }
+
+
+}
