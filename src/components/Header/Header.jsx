@@ -81,6 +81,7 @@ const Header = () => {
                   {
                     nav_links.map(item => 
                       <li className="nav_item" onClick = {() => setShowMenu(false)}>
+                        
                         <a onClick={handleClick} href={item.path} >
                         {item.display}</a></li>
                     )
