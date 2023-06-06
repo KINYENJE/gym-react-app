@@ -67,8 +67,11 @@ ul{
   font-weight: 700;
 }
 
-@media (max-width: 400px) {
+@media Screen and (max-width: 480px) {
   /* =========reusable class =========*/
+  *{
+    overflow-x: hidden;
+  }
   .container{
     width: 400px;
     padding: 0px 15px;

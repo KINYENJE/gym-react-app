@@ -63,9 +63,9 @@ img {
     margin-top: -23rem;
 }
 
-@media (max-width:400px) {
+@media (max-width:480px) {
     .sliders{
-        width: 300px;
+        width: 450px;
     }
 
     .slide_item{

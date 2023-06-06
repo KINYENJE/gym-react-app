@@ -93,7 +93,7 @@
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 480px){
     .mobile_menu{
         color: var(--heading-color);
         font-size: 1.3rem;
@@ -102,7 +102,8 @@
     }
 
     .nav_wrapper{
-        width: 360px;
+        width: 100%;
+        
     }
 
     .menu{
@@ -121,11 +122,11 @@
 
     .navigation{
         display: none;
-        position: fixed ; 
+        position: absolute ; 
         justify-content: center  ;
         background: #fff ;
-        left: 475px;
-        top: 80px;
+        right: -40%;
+        top: 15%;
         padding: 10px;
         border-radius: .5rem;
         z-index: 1000;

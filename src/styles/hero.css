@@ -186,18 +186,18 @@
 
 
 
-@media  (max-width: 400px) {
+@media  (max-width: 480px) {
     .hero_wrapper{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 0px;
         row-gap: 2.4rem;
-        width: 360px;
+        width: 100%;
     }
 
     .hero_content{
-        margin-top: -1rem;
+        margin-top: 0rem;
     }
 
     .hero_content .section_title{
@@ -216,7 +216,7 @@
     }
 
     .hero_img{
-        width: 360px;
+        width: 100%;
         margin-top: 2rem;
     }
 
@@ -242,25 +242,25 @@
     .hero_img-wrapper{
         position: relative;
         z-index:1;
-        width: 360px;
+        width: 100%;
     }
     
     .box_img{
         position: relative;
-        top: -12%;
-        left: -15%;
+        top: 0%;
+        left: -5%;
         z-index: 10;
     }
     
     .box_img img{
-        width: 121.5%;
+        width: 100%;
     }
     
     .heart_rate{
         width: 100px;
         position: absolute;
-        top: 65%;
-        left: -7%;
+        top: 70%;
+        left: -5%;
         z-index: 10;
         text-align: center;
         background: #fff;
